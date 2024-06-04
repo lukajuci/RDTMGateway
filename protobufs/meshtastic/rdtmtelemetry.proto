@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package meshtastic;
+
+option csharp_namespace = "Meshtastic.Protobufs";
+option go_package = "github.com/meshtastic/go/generated";
+option java_outer_classname = "TelemetryProtos";
+option java_package = "com.geeksville.mesh";
+option swift_prefix = "";
+
+/*
+ * all metrics gathered by the node
+ */
+message rdtmmetrics{
+    /*
+     * generated in NodeDB.cpp
+     */
+    int32 NodeNum = 1;
+
+    int32 time  = 2;
+
+    float longitude = 3;
+
+    float latitude = 4;
+
+    repeated int32 speeds = 5;
+
+    repeated int32 directions = 6;
+
+    int32 temperature = 7;
+
+}
