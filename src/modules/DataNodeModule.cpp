@@ -1,9 +1,8 @@
 /**
  * @file DataNodeModule.cpp
- * @brief Implementation of the DataNodeModule class.
+ * @brief Gateway Node Implementation of the DataNodeModule class.
  *
- * As a sender, this module sends packets every n seconds with an incremented PacketID.
- * As a receiver, this module receives packets from multiple senders and saves them to the Filesystem.
+ * Shortened version of the DataNodeModule class for the gateway that just handles recieving incoming packets
  *
  * The DataNodeModule class is an OSThread that runs the module.
  */
