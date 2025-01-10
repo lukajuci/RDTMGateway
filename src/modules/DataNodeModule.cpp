@@ -6,7 +6,6 @@
  * As a receiver, this module receives packets from multiple senders and saves them to the Filesystem.
  *
  * The DataNodeModule class is an OSThread that runs the module.
- * The RangeTestModuleRadio class handles sending and receiving packets.
  */
 #include "DataNodeModule.h"
 #include "../mesh/generated/meshtastic/rdtmtelemetry.pb.h"
