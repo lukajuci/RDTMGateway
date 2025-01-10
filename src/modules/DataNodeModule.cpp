@@ -1,11 +1,11 @@
 /**
- * @file RangeTestModule.cpp
- * @brief Implementation of the RangeTestModule class and RangeTestModuleRadio class.
+ * @file DataNodeModule.cpp
+ * @brief Implementation of the DataNodeModule class.
  *
  * As a sender, this module sends packets every n seconds with an incremented PacketID.
  * As a receiver, this module receives packets from multiple senders and saves them to the Filesystem.
  *
- * The RangeTestModule class is an OSThread that runs the module.
+ * The DataNodeModule class is an OSThread that runs the module.
  * The RangeTestModuleRadio class handles sending and receiving packets.
  */
 #include "DataNodeModule.h"
